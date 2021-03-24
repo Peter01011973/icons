@@ -3,9 +3,11 @@
    overflow: hidden;
    .block {
      .block__row {
-        border: 5px solid yellow;
+        border: 20px solid yellow;
        .block__column {
-          border: 3px solid darkslategray;
+         color: aliceblue;
+         font-weight: bold;
+         border: 20px solid darkslategray;
          .block__icon {
             width: 40px;
             color: red;

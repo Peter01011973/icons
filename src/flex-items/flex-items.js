@@ -12,21 +12,20 @@ const FlexItems = () => {
                {/* 1-й способ использования иконок:
                в public/index.html с помощью link подключаю кастомный 
                iconfont (style.css). В className добавляю класс иконки */}
-                  <h3 className="icon-facebook"> Hello</h3>
-                  <div className="block__item">1</div>
+                  <div className="block__item">
+                     <span className="icon-facebook block__icon"></span> 1
+                  </div>
                </div>
                <div className="block__column">
                {/* 2-й способ использования иконок:
                для каждой иконки создаю react-компонент, который отображает svg. 
                Вызывю компонент и передаю в него в качестве props стили (className) */}
-                  <h3><Helloween className="block__icon"/>Hello</h3>
-                  <div className="block__item">2</div>
+                  <div className="block__item"><Helloween className="block__icon"/> 2</div>
                </div>
                <div className="block__column">
                {/* 3-й способ использования иконок:
                следую рекомендациям fontawsome для react */}
-                  <FontAwesomeIcon icon={faCoffee} className="block__icon"/>
-                  <div className="block__item">3</div>
+                  <div className="block__item"><FontAwesomeIcon icon={faCoffee} className="block__icon"/> 3</div>
                </div>
             </div>
          </div>
