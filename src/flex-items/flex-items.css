@@ -1,0 +1,23 @@
+.wrappper {
+  margin: 1rem;
+  overflow: hidden;
+}
+
+.wrappper .block .block__row {
+  border: 5px solid yellow;
+}
+
+.wrappper .block .block__row .block__column {
+  border: 3px solid darkslategray;
+}
+
+.wrappper .block .block__row .block__column .block__icon {
+  width: 40px;
+  color: red;
+}
+
+.wrappper .block .block__row .block__column .block__item {
+  padding: 1rem;
+  background-color: darkcyan;
+  font-size: 2rem;
+}
