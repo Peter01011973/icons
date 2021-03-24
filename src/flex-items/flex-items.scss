@@ -1,0 +1,21 @@
+.wrappper {
+   margin: 1rem;
+   overflow: hidden;
+   .block {
+     .block__row {
+        border: 5px solid yellow;
+       .block__column {
+          border: 3px solid darkslategray;
+         .block__icon {
+            width: 40px;
+            color: red;
+         }
+         .block__item {
+            padding: 1rem;
+            background-color: darkcyan;
+            font-size: 2rem;
+         }
+       }
+     }
+   }
+}
